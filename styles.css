@@ -1,1 +1,110 @@
+* {
+    box-sizing: border-box;
+    font-family: Trebuchet MS, sans-serif;
+    background-color: rgb(209, 204, 183);
+}
 
+.generatorL1 {
+    border: 2px solid rgb(24, 24, 24);
+    background-color: rgb(221, 221, 221);
+    width: 220px;
+    text-align: left;
+    padding: 15px;
+    font-size: 0.9em;
+    cursor: pointer;
+    margin: 15px;
+    border-radius: 8px;
+    flex-wrap: wrap;
+}
+
+.locked {
+    background-color: rgb(119, 119, 119);
+    border-color: rgb(24, 24, 24);
+}
+
+.generatorsL1-container {
+    display: flex;
+    width: 502px;
+    flex-wrap: wrap;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#currency {
+    margin: 30px;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#currencyPS {
+    margin: 15px;
+    font-size: 1.2em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.TLocked {
+    display: none;
+}
+
+#L1ResetButton {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+#tickSpeedButton {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+#L1EmpowerButton {
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    width: 300px;
+}
+
+.hidden {
+    display: none;
+}
+
+#SettingsButton {
+    position: fixed;
+    bottom: 30px;
+    right: 40px
+}
+
+#AchivementsButton {
+    position: fixed;
+    bottom: 90px;
+    right: 40px
+}
+
+#indexButton {
+    position: fixed;
+    bottom: 150px;
+    right: 40px
+}
+
+#AutoButton {
+    position: fixed;
+    bottom: 210px;
+    right: 40px
+}
+
+#TVButton {
+  position: fixed;
+  top: 200px;
+  right: 50px
+}
+
+#KugelblitzButton {
+  font-size: 1.25em;
+  width: auto;
+  text-align: center;
+}
